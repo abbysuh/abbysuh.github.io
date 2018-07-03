@@ -21,6 +21,10 @@
   position: fixed;
 }
 
+.fa-github {
+  font-size: 20px;
+}
+
 .navbar-default .navbar-nav>li>a {
   color: DarkTurquoise;
   font-family: 'Lato',sans-serif;
@@ -97,7 +101,7 @@
 }
 
 .about {
-  .background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 
 .about h2 {
@@ -143,8 +147,83 @@
   font-weight: 300;
 }
 
-@media (max-width: 762px) {
+@media (max-width: 900px) {
   .school {
     margin-bottom: 50px;
   }
+
+  .about-section {
+    text-align: center;
+  }
+}
+
+.about-section {
+  color: DarkTurquoise;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.portfolio {
+  background-color: #eeeeee;
+}
+
+.portfolio h2 {
+  color: indigo;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.portfolio h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+  color: DarkTurquoise;
+  margin-bottom: 25px;
+}
+
+.port-item img {
+  margin-bottom: 50px;
+}
+
+.contact {
+  background-color: #eeeeee;
+  padding-bottom: 40px;
+}
+
+.contact h2 {
+  text-align: center;
+  font-family: 'Lato',sans-serif;
+  font-weight: 700;
+  color: indigo;
+}
+
+label {
+  font-family: 'Lato',sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: DarkTurquoise;
+}
+
+
+.btn-default {
+  border: none;
+  color: DarkTurquoise;
+  background: indigo;
+  text-transform: uppercase;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus, .btn-default:visited {
+  outline: none;
+  border: none;
+  color: indigo;
+  background: DarkTurquoise;
+}
+
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: none;
 }
